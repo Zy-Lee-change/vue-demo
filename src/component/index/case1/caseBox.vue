@@ -1,7 +1,7 @@
 <template>
   <div class="container w">
     <div class="caseDetails w pr">
-      <img src="./../../../images/index/bg.png" alt="" class="w">
+      <img src="./../../../assets/images/index/bg.png" alt="" class="w">
       <ul class="clear pa solution">
         <li class="fl">
           数据信息孤立，<span>多渠道数据无法统筹与合理协同！</span>

@@ -5,12 +5,12 @@ import VueRouter from 'vue-router';
  * */
 let Index = (resolve)=>{
   return require.ensure([],()=>{
-    resolve(require('./assets/component/index/index'))
+    resolve(require('./component/index/index'))
   },'Index');
 };
 let Index_home = (resolve)=>{
   return require.ensure([],()=>{
-    resolve(require('./assets/component/index/case1/caseBox'))
+    resolve(require('./component/index/case1/caseBox'))
   },'Index');
 };
 Vue.use(VueRouter);

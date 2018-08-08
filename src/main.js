@@ -1,9 +1,9 @@
 
 import Vue from 'vue'
 import App from './App.vue'
-import baseJs from './assets/common/common.js'
+import baseJs from './assets/common/common'
 import router from './route'
-import store from './assets/store'
+import store from './store'
 
 Vue.use(baseJs);
 
